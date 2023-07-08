@@ -1,0 +1,509 @@
+/* Media Queries */
+
+/* 1400 - 1599 */
+@media (max-width: 1599px) {
+  .container_header {
+    justify-content: space-between;
+  }
+
+  .logo_header,
+  .nav {
+    margin-right: 0;
+  }
+
+  .container_contacts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* 1200 - 1399 */
+@media (max-width: 1399px) {
+  .container {
+    max-width: 955px;
+  }
+
+  .header {
+    padding: 32px 0 24px;
+  }
+
+  .container_header {
+    flex-wrap: wrap;
+  }
+
+  .logo_header {
+    max-width: 187px;
+  }
+
+  .nav {
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  .hero {
+    padding: 101px 0;
+  }
+
+  .offer {
+    max-width: 659px;
+  }
+
+  .offer__text {
+    margin-bottom: 134px;
+  }
+
+  .wrapper,
+  .card {
+    flex-direction: column;
+  }
+
+  .wrapper {
+    align-items: flex-start;
+  }
+
+  .card__picture {
+    height: 579px;
+  }
+
+  .articles {
+    --gap: 27px;
+  }
+
+  .article__picture {
+    height: 200px;
+  }
+
+  .article__body {
+    row-gap: 29px;
+    padding: 15px 33px 49px;
+  }
+
+  .article__details {
+    margin-bottom: 3px;
+    text-align: end;
+  }
+
+  .article__title {
+    margin-bottom: 6px;
+  }
+
+  .partners {
+    gap: 27px;
+  }
+
+  .contacts {
+    padding: 43px 0;
+  }
+
+  .address__name {
+    margin-bottom: 11px;
+  }
+
+  .address__location {
+    font-size: 14px;
+    line-height: 1.36em;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .socials__icon_size_lg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+}
+
+/* 992 - 1199 */
+@media (max-width: 1199px) {
+  .btn-ghost {
+    width: 343px;
+  }
+
+  .hero {
+    background-image: url('../img/raster/museums-1024.jpg');
+  }
+
+  .gallery {
+    background-image: url('../img/raster/flowers-bg-1024.jpg');
+  }
+
+  .article__details {
+    letter-spacing: normal;
+  }
+}
+
+/* 768 - 991 */
+@media (max-width: 991px) {
+  .btn-ghost {
+    width: 317px;
+  }
+
+  .container {
+    max-width: 698px;
+  }
+
+  .nav__list {
+    column-gap: 44px;
+  }
+
+  .hero {
+    padding: 87px 0;
+    background-image: url('../img/raster/museums-768.jpg');
+  }
+
+  .offer {
+    max-width: 87%;
+  }
+
+  .offer__text {
+    margin-bottom: 132px;
+  }
+
+  .gallery {
+    background-image: url('../img/raster/flowers-bg-768.jpg');
+  }
+
+  .works {
+    --gap: 34px;
+  }
+
+  .card__period {
+    margin-bottom: 6px;
+  }
+
+  .articles {
+    --offsets: 0;
+  }
+
+  .article__body {
+    row-gap: 61px;
+  }
+
+  .article__title {
+    margin-bottom: 14px;
+  }
+
+  .article__title {
+    max-width: 493px;
+  }
+
+  .section-subtitle {
+    margin-bottom: var(--gap-md);
+  }
+
+  .partners {
+    justify-content: space-between;
+  }
+
+  .partners__item {
+    max-width: 316px;
+  }
+
+  .partners__picture {
+    width: 90%;
+  }
+
+  .form {
+    justify-content: flex-start;
+  }
+
+  .form__input {
+    width: 324px;
+  }
+}
+
+/* 576 - 767 */
+@media (max-width: 767px) {
+  :root {
+    --section-offset: 50px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .btn-ghost {
+    width: 60%;
+  }
+
+  .section-title,
+  .section-subtitle {
+    margin-bottom: 14px;
+  }
+
+  .section-title {
+    font-size: 40px;
+  }
+
+  .container_header {
+    row-gap: 20px;
+  }
+
+  .logo_header {
+    max-width: 157px;
+  }
+
+  .nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .nav__list {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .hero {
+    padding: 50px 0;
+  }
+
+  .offer__title {
+    margin-bottom: 17px;
+    font-size: 50px;
+  }
+
+  .offer__text {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .works {
+    --gap: 30px;
+  }
+
+  .section-desc_catalog {
+    margin-bottom: var(--gap-md);
+  }
+
+  .card {
+    row-gap: 20px;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: var(--gap-md);
+  }
+
+  .card__title {
+    margin-bottom: 5px;
+  }
+
+  .card__period {
+    margin-bottom: 12px;
+  }
+
+  .article__body {
+    row-gap: 54px;
+  }
+
+  .partners {
+    flex-wrap: nowrap;
+    gap: 12px;
+  }
+
+  .form__input {
+    width: 75%;
+  }
+}
+
+/* 320 - 575 */
+@media (max-width: 575px) {
+  :root {
+    --font-size: 14px;
+    --subtitle-font-size: 18px;
+  }
+
+  .btn {
+    padding: 9px 17px;
+    line-height: var(--line-height-sm);
+  }
+
+  .btn,
+  .btn-ghost {
+    font-size: 12px;
+  }
+
+  .btn-ghost {
+    border-width: 2px;
+    width: 44%;
+  }
+
+  .section-title {
+    margin-bottom: 11px;
+    font-size: 28px;
+  }
+
+  .socials__icon_size_md,
+  .socials__icon_size_lg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .section-title,
+  .offer,
+  .about,
+  .catalog,
+  .article,
+  .article__details,
+  .projects,
+  .contacts {
+    text-align: center;
+  }
+
+  .offer,
+  .article__link,
+  .address_location,
+  .address_contacts {
+    margin: auto;
+  }
+
+  .header {
+    padding: 16px 0 11px;
+  }
+
+  .container_header {
+    row-gap: 13px;
+  }
+
+  .logo {
+    max-width: 97px;
+  }
+
+  .nav__list {
+    column-gap: 25px;
+  }
+
+  .nav__link {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .search__icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .hero {
+    background-image: url('../img/raster/museums-320.jpg');
+  }
+
+  .offer__title {
+    margin-bottom: 11px;
+    font-size: 32px;
+    line-height: 0.88em;
+  }
+
+  .offer__text {
+    margin-bottom: 39px;
+    font-size: 12px;
+    line-height: 1.334em;
+  }
+
+  .gallery {
+    background-image: url('../img/raster/flowers-bg-320.jpg');
+  }
+
+  .works {
+    --offsets: 0;
+  }
+
+  .articles {
+    gap: 20px;
+  }
+
+  .article__body {
+    padding: 18px 22px 50px;
+  }
+
+  .article__details {
+    margin-bottom: 9px;
+  }
+
+  .article__title {
+    margin-bottom: 5px;
+  }
+
+  .projects {
+    padding-bottom: var(--section-offset-sm);
+  }
+
+  .section-desc_projects {
+    margin-bottom: var(--gap-sm);
+  }
+
+  .section-subtitle {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.78em;
+  }
+
+  .partners {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .partners__link {
+    height: 100px;
+  }
+
+  .partners__picture {
+    width: 55%;
+  }
+
+  .contacts {
+    --subtitle-font-size: 18px;
+    padding: var(--section-offset-sm) 0 var(--section-offset);
+    border-top: none;
+  }
+
+  .container_contacts {
+    gap: var(--gap-sm);
+  }
+
+  .address__name {
+    margin-bottom: 5px;
+  }
+
+  .form {
+    justify-content: center;
+    row-gap: var(--gap-sm);
+  }
+
+  .form__input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    letter-spacing: 0.1em;
+  }
+
+  .form__text {
+    display: none;
+  }
+
+  .address__title {
+    margin-bottom: 7px;
+    --subtitle-font-weight: 400px;
+    line-height: 1.78em;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .footer {
+    padding: var(--gap-sm);
+  }
+
+  .container_footer {
+    flex-direction: column-reverse;
+  }
+}
